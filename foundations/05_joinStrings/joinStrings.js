@@ -1,13 +1,13 @@
-/*
- First name: Carlos
- Last name: Stevenson
- This year: 1965
- Birth year: 1947
 
- The greeting should read: "Hello! My name is Carlos Stevenson and I am 18 years old."
-*/
+const firstName = 'Carlos';
+const lastName = "Stevenson";
+const thisYear = 1965;
+const birthYear = 1947;
 
-// Add your code right below, good luck!
+const greeting = `Hello! My name is ${firstName} ${lastName} and I am ${thisYear - birthYear} years old.`;
+
+const fullName = `${firstName} ${lastName}`;
+const age = thisYear - birthYear;
 
 
 

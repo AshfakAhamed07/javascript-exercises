@@ -5,7 +5,6 @@ const reverseString = function (string) {
 module.exports = reverseString;
 
 
-
 // Another approach could be to loop over the string in reverse direction to construct a new one
 /*
   const reverseString = function (string) {
